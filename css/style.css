@@ -1,0 +1,26 @@
+.call-btn-footer{
+    background: rgb(242, 242, 242);
+    border-radius: 9px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer-text{
+    margin: 6px 9px 6px;
+}
+
+
+
+@media (max-width: 360px) {
+    .navbar-brand{
+        font-size: 3px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .call-btn-footer{
+        width: 100%;
+        padding: 0px 30px;
+    }
+}

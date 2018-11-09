@@ -1,3 +1,9 @@
+/* last element has to push down CTA footer */
+#SS-menu{
+    margin-bottom: 120px;
+}
+
+
 .call-btn-footer{
     background: rgb(242, 242, 242);
     border-radius: 9px;
@@ -8,13 +14,42 @@
 
 .footer-text{
     margin: 6px 9px 6px;
+    font-size: 24px;
 }
 
+.menu-category{
+    font-family: 'Seaweed Script', cursive;
+    color: white;
+}
 
+.menu-item{
+    font-style: italic;
+    padding: 6px 0px;
+}
+
+.price{
+    position: absolute;
+    top: 15px;
+    right: 12px;
+}
 
 @media (max-width: 360px) {
     .navbar-brand{
         font-size: 3px;
+    }
+
+    .call-btn-footer>button{
+        font-size: 15px;
+    }
+
+    .menu-item{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .menu-item{
+        font-size: 15px;
     }
 }
 
@@ -23,4 +58,5 @@
         width: 100%;
         padding: 0px 30px;
     }
+
 }
